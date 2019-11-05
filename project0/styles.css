@@ -1,1 +1,25 @@
-.col-pixel-width-300 { width: 300px; }
+.col-pixel-width-300 
+    { 
+        width: 300px; 
+    }
+
+.TKWY-headers 
+    { 
+        color: #ff8001
+    }
+
+.DHER-headers
+    {
+        color: #d62025
+    }
+
+.JE-headers
+    {
+        color: #fa0d30
+    }
+
+.size-max 
+    {
+        max-width: 800px;
+        width:100%;
+    }
