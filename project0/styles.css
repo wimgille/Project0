@@ -23,3 +23,23 @@
         max-width: 800px;
         width:100%;
     }
+
+.KPI-box
+    {
+        border: 1px solid lightgrey;
+    }
+
+.table-hover tbody tr:hover td
+    {
+        color: #ff8001;
+    }
+
+.back-to-top    
+{   
+    position: fixed;
+    bottom: 125px;
+    right: -20px;
+    transform: rotate(270deg);
+    color: #ff8001
+}
+    
