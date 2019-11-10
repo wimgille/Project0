@@ -1,38 +1,33 @@
 .col-pixel-width-300 
-    { 
-        width: 300px; 
-    }
+{         
+    width: 300px; 
+}
 
 .TKWY-headers 
-    { 
-        color: #ff8001
-    }
+{ 
+    color: #ff8001
+}
 
 .DHER-headers
-    {
-        color: #d62025
-    }
+{
+    color: #d62025
+}
 
 .JE-headers
-    {
-        color: #fa0d30
-    }
+{
+    color: #fa0d30
+}
 
 .size-max 
-    {
-        max-width: 800px;
-        width:100%;
-    }
-
-.KPI-box
-    {
-        border: 1px solid lightgrey;
-    }
+{
+    max-width: 800px;
+    width:100%;
+}
 
 .table-hover tbody tr:hover td
-    {
-        color: #ff8001;
-    }
+{
+    color: #ff8001;
+}
 
 .back-to-top    
 {   
@@ -40,6 +35,12 @@
     bottom: 125px;
     right: -20px;
     transform: rotate(270deg);
-    color: #ff8001
 }
-    
+
+@media screen and (max-width: 800px) 
+{
+    img.world-map
+    {
+        display: none;
+    }
+}
