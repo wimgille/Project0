@@ -1,0 +1,46 @@
+$TKWYcolor:#ff8001;
+$DHERcolor:#d62025;
+$JEcolor:#fa0d30;
+
+
+.TKWY-headers 
+{ 
+    color: $TKWYcolor;
+}
+
+.DHER-headers
+{
+    color: $DHERcolor;
+}
+
+.JE-headers
+{
+    color: $JEcolor;
+}
+
+.col-pixel-width-300 
+{         
+    width: 300px; 
+}
+
+.size-max 
+{
+    max-width: 800px;
+    width:100%;
+}
+
+.back-to-top    
+{   
+    position: fixed;
+    bottom: 100px;
+    right: -20px;
+    transform: rotate(270deg);
+}
+
+@media screen and (max-width: 800px) 
+{
+    img.world-map
+    {
+        display: none;
+    }
+}
