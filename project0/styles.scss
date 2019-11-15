@@ -3,19 +3,33 @@ $DHERcolor:#d62025;
 $JEcolor:#fa0d30;
 
 
-.TKWY-headers 
-{ 
-    color: $TKWYcolor;
+.foodHeader
+{
+    font-weight: 500;
+
+    &--TKWY 
+    {
+      @extend .foodHeader;
+      color: $TKWYcolor;
+    }
+    &--DHER 
+    {
+      @extend .foodHeader;
+      color: $DHERcolor;
+    }
+    &--JE 
+    {
+      @extend .foodHeader;
+      color: $JEcolor;
+    }
 }
 
-.DHER-headers
+h1 
 {
-    color: $DHERcolor;
-}
-
-.JE-headers
-{
-    color: $JEcolor;
+    + p 
+    {
+      font-weight: bold;
+    }
 }
 
 .col-pixel-width-300 

@@ -1,13 +1,21 @@
-.TKWY-headers {
+.foodHeader, .foodHeader--TKWY, .foodHeader--DHER, .foodHeader--JE {
+  font-weight: 500;
+}
+
+.foodHeader--TKWY {
   color: #ff8001;
 }
 
-.DHER-headers {
+.foodHeader--DHER {
   color: #d62025;
 }
 
-.JE-headers {
+.foodHeader--JE {
   color: #fa0d30;
+}
+
+h1 + p {
+  font-weight: bold;
 }
 
 .col-pixel-width-300 {
